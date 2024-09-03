@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from templates.seekviral.com/qzain/quiz/Quiz6/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Sep 2024 08:36:09 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+
+    <!-- fonts -->
+    <link rel="stylesheet" href="assets/fonts/font.css">
+
+    <!-- fontawesome 5 -->
+    <link rel="stylesheet" href="../../../../cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+
+    <!-- bootstrap 5 -->
+    <link rel="stylesheet" href="assets/css/Bootstrap/bootstrap.min.css">
+
+    <!-- Custom Css Files -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/animation.css">
+    
+    <!-- result css -->
+    <link rel="stylesheet" href="assets/css/result_style.css">
+</head>
+<body>
+
+    <main class="overflow-hidden">
+        <!-- background -->
+        <video class="main-background" autoplay muted loop id="myVideo">
+            <source src="assets/images/question-kid.mp4" type="video/mp4">
+        </video>
+        <div class="countdown sm-none">
+            <span id="countdown-timer">60</span>
+            sec
+        </div>
+        <div class="row position-relative">
+            <div class="col-md-7 ms-auto tab-70 sm-100">
+
+                <!-- form -->
+                <form method="post">
+                    <div class="wrapper show-section">
+
+                        <!-- step 1 -->
+                        <section class="steps">
+
+                            <!-- Question -->
+                            <div class="quiz-question">
+                                <img src="assets/images/cloud.png" alt="question">
+                                <h2>Which former British colony was given back to China in 1997?</h2>
+                            </div>
+
+                            <!-- form -->
+                            <fieldset id="step1">
+                                <div class="radio-field bounce-left">
+                                    <input type="radio" name="op1" value="Russia">
+                                    <label>Russia</label>
+                                </div>
+                                <div class="radio-field bounce-left delay-100">
+                                    <input type="radio" name="op1" value="America">
+                                    <label>America</label>
+                                </div>
+                                <div class="radio-field bounce-left delay-200">
+                                    <input type="radio" name="op1" value="Australia">
+                                    <label>Australia</label>
+                                </div>
+                                <div class="radio-field bounce-left delay-300">
+                                    <input type="radio" name="op1" value="Hong Kong">
+                                    <label>Hong Kong</label>
+                                </div>
+                            </fieldset>
+
+                            <!-- next previous -->
+                            <div class="next-prev">
+                                <button class="next" id="step1btn" type="button">next question<i class="fa-solid fa-arrow-right"></i></button>
+                            </div>
+                        </section>
+
+                        <!-- step 2 -->
+                        <section class="steps">
+
+                            <!-- Question -->
+                            <div class="quiz-question">
+                                <img src="assets/images/cloud.png" alt="question">
+                                <h2>The islands With Coral Covered Surfaces  in Bay of Bengal are</h2>
+                            </div>
+
+                            <!-- form -->
+                            <fieldset id="step2">
+                                <div class="radio-field bounce-left">
+                                    <input type="radio" name="op2" value="Andaman islands">
+                                    <label>Andaman islands</label>
+                                </div>
+                                <div class="radio-field bounce-left delay-100">
+                                    <input type="radio" name="op2" value="Nicobar islands">
+                                    <label>Nicobar islands</label>
+                                </div>
+                                <div class="radio-field bounce-left delay-200">
+                                    <input type="radio" name="op2" value="both (a) and (b)">
+                                    <label>both (a) and (b)</label>
+                                </div>
+                                <div class="radio-field bounce-left delay-300">
+                                    <input type="radio" name="op2" value="None of the above">
+                                    <label>None of the above</label>
+                                </div>
+                            </fieldset>
+
+                            <!-- next previous -->
+                            <div class="next-prev">
+                                <button class="prev" type="button"><i class="fa-solid fa-arrow-left"></i>last question</button>
+                                <button class="next" id="step2btn" type="button">next question<i class="fa-solid fa-arrow-right"></i></button>
+                            </div>
+                        </section>
+                        <!-- step 3 -->
+                        <section class="steps">
+
+                            <!-- Question -->
+                            <div class="quiz-question">
+                                <img src="assets/images/cloud.png" alt="question">
+                                <h2>How long is the border between the United States and Canada?</h2>
+                            </div>
+
+                            <!-- form -->
+                            <fieldset id="step3">
+                                <div class="radio-field bounce-left">
+                                    <input type="radio" name="op3" value="3,525 miles">
+                                    <label>3,525 miles</label>
+                                </div>
+                                <div class="radio-field bounce-left delay-100">
+                                    <input type="radio" name="op3" value="5,525 miles">
+                                    <label>5,525 miles</label>
+                                </div>
+                                <div class="radio-field bounce-left delay-200">
+                                    <input type="radio" name="op3" value="4,525 miles">
+                                    <label>4,525 miles</label>
+                                </div>
+                                <div class="radio-field bounce-left delay-300">
+                                    <input type="radio" name="op3" value="6,525 miles">
+                                    <label>6,525 miles</label>
+                                </div>
+                            </fieldset>
+
+                            <!-- next previous -->
+                            <div class="next-prev">
+                                <button class="prev" type="button"><i class="fa-solid fa-arrow-left"></i>last question</button>
+                                <button class="next" id="step3btn" type="button">next question<i class="fa-solid fa-arrow-right"></i></button>
+                            </div>
+                        </section>
+                        <!-- step 4 -->
+                        <section class="steps">
+
+                            <!-- Question -->
+                            <div class="quiz-question">
+                                <img src="assets/images/cloud.png" alt="question">
+                                <h2>In which US state did the Scopes Monkey Trial happen?</h2>
+                            </div>
+
+                            <!-- form -->
+                            <fieldset id="step4">
+                                <div class="radio-field bounce-left">
+                                    <input type="radio" name="op4" value="Maryland">
+                                    <label>Maryland</label>
+                                </div>
+                                <div class="radio-field bounce-left delay-100">
+                                    <input type="radio" name="op4" value="South Dakota">
+                                    <label>South Dakota</label>
+                                </div>
+                                <div class="radio-field bounce-left delay-200">
+                                    <input type="radio" name="op4" value="Indiana">
+                                    <label>Indiana</label>
+                                </div>
+                                <div class="radio-field bounce-left delay-300">
+                                    <input type="radio" name="op4" value="Tennessee">
+                                    <label>Tennessee</label>
+                                </div>
+                            </fieldset>
+
+                            <!-- next previous -->
+                            <div class="next-prev">
+                                <button class="prev" type="button"><i class="fa-solid fa-arrow-left"></i>last question</button>
+                                <button class="next" id="sub" type="button">Submit<i class="fa-solid fa-arrow-right"></i></button>
+                            </div>
+                        </section>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- step count -->
+        <div class="step-count sm-none">
+            <div class="step-count-inner">
+                <div class="step-single active show">
+                    <div class="step-line"></div>
+                    <div class="step-number">
+                        <span>1</span>
+                    </div>
+                </div>
+                <div class="step-single">
+                    <div class="step-line"></div>
+                    <div class="step-number">
+                        <span>2</span>
+                    </div>
+                </div>
+                <div class="step-single">
+                    <div class="step-line"></div>
+                    <div class="step-number">
+                        <span>3</span>
+                    </div>
+                </div>
+                <div class="step-single">
+                    <div class="step-line"></div>
+                    <div class="step-number">
+                        <span>4</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- result -->
+        <div class="loadingresult">
+            <img src="assets/images/loading.gif" alt="loading">
+        </div>
+        <div class="result_page">
+            <div class="container">
+                <div class="result_inner">
+
+                    <!-- header -->
+                    <header class="resultheader">
+                        Your Result is there
+                        <div class="h-border"></div>
+                    </header>
+
+                    <div class="result_content">
+                        <div class="result_msg">
+                            <img src="assets/images/check.png" alt="check">
+                            Wow! You are Brilliant!
+                        </div>
+                        <span>your overall score</span>
+                        <div class="u_prcnt">
+                            70%
+                        </div>
+                        <div class="prcnt_bar">
+                            <div class="fill"></div>
+                        </div>
+                        <div class="prcnt_bar_lvl">
+                            Medium
+                        </div>
+                        <div class="lvl_overview">
+                            <div class="lvl-single">
+                                <div class="lvl-color low"></div>
+                                <div class="lvl-name ">Low</div>
+                                <div class="lvl-line"></div>
+                            </div>
+                            <div class="lvl-single">
+                                <div class="lvl-color medium"></div>
+                                <div class="lvl-name ">Medium</div>
+                                <div class="lvl-line"></div>
+                            </div>
+                            <div class="lvl-single">
+                                <div class="lvl-color high"></div>
+                                <div class="lvl-name">High</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <footer class="resultfooter"></footer>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+    <div id="error"></div>
+    
+    <!-- bootstrap 5 -->
+    <script src="assets/js/Bootstrap/bootstrap.min.js"></script>
+
+    <!-- jQuery -->
+    <script src="assets/js/jQuery/jquery-3.6.3.min.js"></script>
+    
+    <!-- result js -->
+    <script src="assets/js/result.js"></script>
+
+    <!-- Custom js -->
+    <script src="assets/js/custom.js"></script>
+    
+</body>
+
+<!-- Mirrored from templates.seekviral.com/qzain/quiz/Quiz6/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Sep 2024 08:36:16 GMT -->
+</html>
